@@ -1,0 +1,15 @@
+.Category{
+    background-image: linear-gradient(to right, #ffca1d, #ee8a07);
+    display: block;
+    color: #333;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+.Category select{
+    width: 15em;
+    height: 40px;
+    font-size: 1.4em;
+    padding: 0 0.5em;
+}

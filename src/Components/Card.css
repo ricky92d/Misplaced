@@ -1,0 +1,65 @@
+.Card{
+    width: 80%;
+    border: 2px solid #ffca1d;
+    border-radius: 6px;
+    margin: 0 auto;
+    padding: 0 1em;
+    margin-bottom: 2em;
+    text-align: center;
+}   
+
+.Card__Title{
+    text-align: center;
+    font-size: 1.3em;
+    padding-top: 0.5em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.Card__Subtitle{
+    padding-top: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.Lost{
+    color: orangered;
+    font-weight: bolder;
+}
+
+.Time{
+    color: #777;
+    font-weight: 500;
+    text-align: right;
+    margin-top: 0;
+    padding-top: 0.5em;
+}
+
+.Card__Content{
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.Card__Location{
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: right;
+    padding-top: 0.8em;
+    margin-top: 0;
+}
+
+.Button-Card{
+    padding-bottom: 1em;
+}
+
+@media(min-width: 1200px){
+    .Card{
+        width: 50%;
+    }
+}

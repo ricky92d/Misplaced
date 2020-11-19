@@ -1,0 +1,31 @@
+.Footer{
+    background-color: #666;
+    width: 100%;
+    min-height: 30vh;
+    text-align: center;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Footer__List{
+    list-style: none;
+    padding-top: 2em;
+    color: #ffca1d;
+    font-size: 1.5em;
+}
+
+.Footer__List li{
+    margin-bottom: 1em;
+}
+
+.Footer__Copy{
+    font-size: 2em;
+    color: #999;
+}   
+
+.Contact_Link{
+    color: inherit;
+    text-decoration: none;
+}

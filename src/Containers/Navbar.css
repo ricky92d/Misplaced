@@ -1,0 +1,16 @@
+.Navbar{
+    
+    display: flex;
+    
+    height: 70px;
+    background: #333;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.Navbar__Title{
+    color: #fff;
+}
+
+
